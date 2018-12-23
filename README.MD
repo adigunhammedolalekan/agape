@@ -1,5 +1,5 @@
-## Agape
-An android app to send automated text messages(SMS) to your love one. Be ahead of your relationship and remind people that they matter to you without any hassle
+## Agape 
+An android app to send automated text messages(SMS) to your loved ones. Be ahead of your relationship, remind people in your life that they matter to you without any hassle
 
 ##### Still in active development.
 
