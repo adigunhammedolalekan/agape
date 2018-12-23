@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:id="@+id/btn_set_date_layout_set_schedule">
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            app:materialIcon="clock"
+            app:materialIconColor="@color/material_yellow"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/tv_set_date"
+            android:layout_marginStart="16dp"
+            android:text="Set Date"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_set_date_layout_set_schedule"
+        android:background="?attr/selectableItemBackground"
+        android:id="@+id/btn_set_time_layout_set_schedule">
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            app:materialIcon="timer"
+            app:materialIconColor="@color/red"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:id="@+id/tv_set_time"
+            android:text="Set Time"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_set_time_layout_set_schedule"
+        android:background="?attr/selectableItemBackground"
+        android:id="@+id/btn_set_text_layout_set_schedule">
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            app:materialIcon="message"
+            app:materialIconColor="@color/fb"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/tv_set_message_text"
+            android:layout_marginStart="16dp"
+            android:text="Set message text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_set_text_layout_set_schedule"
+        android:background="?attr/selectableItemBackground"
+        android:id="@+id/btn_set_message_type_layout_set_schedule">
+        <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            app:materialIcon="message_bulleted"
+            app:materialIconColor="@color/divider"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/tv_set_message_type"
+            android:layout_marginStart="16dp"
+            android:text="Set message type"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/divider"
+        app:layout_constraintTop_toBottomOf="@+id/btn_set_message_type_layout_set_schedule"/>
+</android.support.constraint.ConstraintLayout>

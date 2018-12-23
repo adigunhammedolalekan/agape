@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/selectableItemBackground"
+    android:id="@+id/btn_root_set_repeating_schedule">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/textColorPrimary"
+        android:textAppearance="@style/BoldText"
+        android:textStyle="bold"
+        android:id="@+id/tv_date_set_repeating_schedule"
+        android:text="Every Monday"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingEnd="16dp"
+        android:text="Random Time"
+        android:id="@+id/tv_set_time_set_repeating_schedule"
+        android:layout_below="@+id/tv_date_set_repeating_schedule"
+        android:paddingBottom="16dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:textStyle="bold"
+        style="@style/ButtonStyle.BorderLess"
+        android:text="SET TIME"
+        android:id="@+id/btn_dots_vertical"/>
+</RelativeLayout>

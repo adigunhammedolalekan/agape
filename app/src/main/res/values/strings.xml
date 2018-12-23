@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Agape</string>
+    <string name="facebook_app_id">2117996521844633</string>
+    <string name="fb_login_protocol_scheme">fb2117996521844633</string>
+    <string name="tagline">Send automated text to your loved ones, be ahead of your relationships</string>
+    <string name="GOOGLE_CLIENT_ID"> 466654276770-dqhgqbupt2hfvdicmh4lam6k2i4dcgid.apps.googleusercontent.com </string>
+</resources>
